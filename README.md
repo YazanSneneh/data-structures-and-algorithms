@@ -8,3 +8,21 @@
 | ------------ | --------------------------------------------------------------------- | --------------|
 | class01-code Challenge | [ array reverse](/challenges/app/build/classes/java/main/challenges/ArrayReverse.java) | [array reverse](assets/array-reverse.jpeg)|
 | class02-code Challenge | [ array shift](/challenges/app/src/main/java/challenges/ArrayShift.java) | [array shift](assets/array-shift.png)|
+
+
+
+## Shift Array Summary
+ given list of elements array and new element, add new element in the middle.
+
+### Challenge Description
+ given list of elements array and new element, add new element in the middle.
+
+### Approach & Efficiency
+1. create method that receive the array and element.
+2. inside method declare new array and add element exaclty on middle.
+3. consider if array size even or odd.
+4. add numbers accoringly to new array.
+5. return new array.
+
+### Solution
+[ array shift](/challenges/app/src/main/java/challenges/ArrayShift.java) | [array shift](assets/array-shift.png)

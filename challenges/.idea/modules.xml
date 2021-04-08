@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/new-data-sturcture.iml" filepath="$PROJECT_DIR$/new-data-sturcture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/challenges.iml" filepath="$PROJECT_DIR$/challenges.iml" />
     </modules>
   </component>
 </project>

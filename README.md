@@ -3,8 +3,8 @@
 |--------------|-----------|-----------|
 | Reverse Array| [code challenge](challenges/ArrayReverse.java)|[White Board](assets/array-reverse.jpeg)|
 | Reverse Shift| [code challenge](challenges/ArrayShift.java)|[White Board](assets/array-shift.png)|
-| Reverse Shift| [code challenge](challenges/BinarySearch.java|[White Board](assets/array.png)|
-| Reverse Shift| [code challenge](challenges/LinkedList.java|[White Board](assets/array.png)|
+| Binary Search| [code challenge](challenges/BinarySearch.java|[White Board](assets/array.png)|
+| Linked List| [code challenge](challenges/LinkedList.java|[White Board](assets/array.png)|
 
 ## Compile my files:
  * code direclty inside the **challenge folder** can compile it like this from terminal :

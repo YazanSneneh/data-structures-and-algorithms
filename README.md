@@ -3,8 +3,9 @@
 |--------------|-----------|-----------|
 | Reverse Array| [code challenge](challenges/ArrayReverse.java)|[White Board](assets/array-reverse.jpeg)|
 | Reverse Shift| [code challenge](challenges/ArrayShift.java)|[White Board](assets/array-shift.png)|
-| Binary Search| [code challenge](challenges/BinarySearch.java]|[White Board](assets/array.png)|
-| Linked List| [code challenge](challenges/linkedList/LinkedList.java]|[White Board](assets/array.png)|
+| Binary Search| [code challenge](challenges/BinarySearch.java)|[White Board](assets/array.png)|
+| Linked List| [code challenge](challenges/DataStructures/linkedList/LinkedList.java)|[No white board]()|
+| Linked List 2| [code challenge](challenges/DataStructures/linkedList/LinkedList.java)|[No white board]()|
 
 ## Compile my files:
  * code direclty inside the **challenge folder** can compile it like this from terminal :
@@ -60,3 +61,22 @@ Big O:
 
 ### Solution
 No white board for this code.
+
+
+# Challenge Summary
+<!-- Short summary or background information -->
+ * Insert before 
+ * insert after
+ * append to linked list.
+## Challenge Description
+<!-- Description of the challenge -->
+ * Insert before a value in linkedList.
+ * insert after a value in linked list.
+ * append to linked list
+
+## Approach & Efficiency
+  Big O :
+  time complexity ----> O(n)
+
+## Solution
+no white board for this solution

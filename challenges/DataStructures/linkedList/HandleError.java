@@ -1,4 +1,4 @@
-package linkedList;
+package DataStructures.linkedList;
 
 public class HandleError {
 

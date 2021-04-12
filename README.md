@@ -6,6 +6,7 @@
 | Binary Search| [code challenge](challenges/BinarySearch.java)|[White Board](assets/array.png)|
 | Linked List| [code challenge](challenges/DataStructures/linkedList/LinkedList.java)|[No white board]()|
 | Linked List 2| [code challenge](challenges/DataStructures/linkedList/LinkedList.java)|[No white board]()|
+| Linked List 3| [code challenge](challenges/DataStructures/linkedList/LinkedList.java)|[No white board]()|
 
 ## Compile my files:
  * code direclty inside the **challenge folder** can compile it like this from terminal :
@@ -63,7 +64,7 @@ Big O:
 No white board for this code.
 
 
-# Challenge Summary
+# insertBefore, insertAfterm append
 <!-- Short summary or background information -->
  * Insert before 
  * insert after
@@ -79,4 +80,22 @@ No white board for this code.
   time complexity ----> O(n)
 
 ## Solution
-no white board for this solution
+No white board for this soultion
+
+
+# element index in linkedlist
+* Write a method for the Linked List class which takes a number, k, as a parameter.
+*  Return the node’s value that is k from the end of the linked list.
+
+
+## Challenge Description
+* Write a method for the Linked List class which takes a number, k, as a parameter.
+* Return the node’s value that is k from the end of the linked list.
+
+## Approach & Efficiency
+ Big O :
+  Time complexity ----> O(n+n)
+
+## Solution
+<!-- Embedded whiteboard image -->
+No white board for this soultion

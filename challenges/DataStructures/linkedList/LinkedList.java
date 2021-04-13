@@ -4,65 +4,71 @@ public class LinkedList {
       Node head;
 
     public static void main(String[] args) {
-// Can successfully instantiate an empty linked list
         LinkedList list = new LinkedList();
 
 //     Can properly insert into the linked list
-//        System.out.println("Can properly insert one or multiple value into the linked list");
+        System.out.println("Can properly insert one or multiple value into the linked list");
         list.insert(2);
         list.insert(8);
         list.insert(3);
         list.insert(7);
-//        System.out.println(list);
-//        System.out.println("Check if list does include 10 item :" + list.includes( 200));
-//        System.out.println("Check if list does not include 50 item, expected false :" + list.includes( 50));
+        System.out.println(list);
 
-
-//        System.out.println( ".................................................................");
-//        System.out.println( "...................linked list challenge 2 ......................");
-//        System.out.println( ".................................................................");
-//
-
-//       System.out.println("can properly append new node when list is empty");
-//       list.append(2);
-//       System.out.println(list);
-
-//       System.out.println("can properly append new node when list is not empty");
-//       list.append(40);
-//       System.out.println(list);
-
-
-//       System.out.println(" happy(success) and failure(should not or null pointer exception) test Append first value 100 after 10 : ");
-//       System.out.println(list);
-
-//       System.out.println("Append second value 555 after 100 : ");
-//       System.out.println(list.toString());
-//       list.insertBefore(300, 999);
-//       System.out.println( "Insert 999 before 300, expected result = {999} -> {300} ->");
-//       System.out.println(list.toString());
-
-//       System.out.println("Insert 255 after 100, expected result = {100} -> {255} ->");
-//       list.insertAfter(100, 255);
 
         System.out.println( ".................................................................");
-        System.out.println( "...................linked list challenge 3 ......................");
+        System.out.println( "...................linked list challenge 4 ......................");
         System.out.println( ".................................................................");
-        System.out.println(list.toString());
-        System.out.println( "take input (12 > list size) and should return -1 : "+ list.kthFromEnd(12));
-        System.out.println( "Where k and the length of the list are the same, "+list.kthFromEnd(3));
-        System.out.println( "Where k is not a positive integer "+list.kthFromEnd(-3));
-        System.out.println( "Where the linked list is of a size 1, should return 2,  "+list.kthFromEnd(0));
 
-        System.out.println( "happy path k in the middle and is 2, found and should return 3 value : "+list.kthFromEnd(12));
-}
+        LinkedList linkedListOne = new LinkedList();
+        linkedListOne.append(2);
+        linkedListOne.append(8);
+        linkedListOne.append(3);
+        linkedListOne.append(7);
+
+        LinkedList linkedListTwo = new LinkedList();
+        linkedListTwo.append(13);
+        linkedListTwo.append(17);
+        linkedListTwo.append(13);
+        linkedListTwo.append(17);
+        linkedListOne.append(20);
+        linkedListOne.append(21);
+        linkedListOne.append(22);
+
+        System.out.println("method :"+zipLists(linkedListOne, linkedListTwo));
+
+    }
 
 //..................................  constructor ...............................
    public LinkedList(){
-       System.out.println("Initiated empty array list successfully");
     }
     public LinkedList (Node node){
        this.head = node;
    }
+
+// ............................
+public static LinkedList zipLists(LinkedList one, LinkedList two){
+         LinkedList bigLinkedList = new LinkedList();
+            Node currentOne = one.head;
+            Node currentTwo = two.head;
+
+            while( currentOne !=null || currentTwo !=null){
+                if(currentOne == null){
+                    bigLinkedList.append(currentTwo.value);
+                    currentTwo = currentTwo.next;
+                }else if(currentTwo  == null){
+                    bigLinkedList.append(currentOne.value);
+                    currentOne =currentOne.next;
+                }else{
+                    bigLinkedList.append(currentOne.value);
+                    bigLinkedList.append(currentTwo.value);
+                    currentOne =currentOne.next;
+                    currentTwo = currentTwo.next;
+                }
+            }
+
+         return bigLinkedList;
+}
+
 //...................................... insert .................................
   public void insert(int val){
            this.head = new Node(val,this.head);
@@ -95,7 +101,7 @@ public class LinkedList {
                  current = current.next;
              }
          }
-
+//         current = head;
      }
 // ........................... insertBefore .............................
     public void insertAfter(int value, int newVal){
@@ -150,7 +156,6 @@ public class LinkedList {
         if(head == null){
             return -1;
         }else{
-
             while (current.next != null){
                 counter +=1;
                 current = current.next;
@@ -171,6 +176,7 @@ public class LinkedList {
             }
         return result;
     }
+
 //   ............................. To String  .............................
     public String toString() {
         Node current = head;

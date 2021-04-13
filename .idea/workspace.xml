@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d6af411-4f8f-4538-b52f-3f8303dd7766" name="Default Changelist" comment="" />
+    <list default="true" id="3d6af411-4f8f-4538-b52f-3f8303dd7766" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/zip white board.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/DataStructures.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/linkedList.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/out/production/linkedList/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/out/production/linkedList/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/out/production/linkedList/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/out/production/linkedList/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/out/production/linkedList/linkedList.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/DataStructures/linkedList/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/DataStructures/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/DataStructures/linkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new-data-sturcture.iml" beforeDir="false" afterPath="$PROJECT_DIR$/new-data-sturcture.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/new-data-sturcture/DataStructures/linkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-data-sturcture/DataStructures/linkedList/LinkedList.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,11 +37,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/challenges/DataStructures/linkedList/LinkedList.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1qn9uqMZQtx0Td6DWyP0XOWPfM8" />
   <component name="ProjectLevelVcsManager">
@@ -27,31 +57,34 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\STUDENT\401\data-structures-and-algorithms\assets" />
       <recent name="C:\Users\STUDENT\401\data-structures-and-algorithms\challenges" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="DataStructures.linkedList" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.LinkedList (1)">
-    <configuration name="ArrayShift" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayShift" />
-      <module name="new-data-sturcture" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch" />
-      <module name="new-data-sturcture" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedList (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LinkedListTest">
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataStructures.linkedList.LinkedList" />
       <module name="new-data-sturcture" />
       <extension name="coverage">
@@ -64,25 +97,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.LinkedList" />
+    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="new-data-sturcture" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedList.*" />
+          <option name="PATTERN" value="DataStructures.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="DataStructures.linkedList" />
+      <option name="MAIN_CLASS_NAME" value="DataStructures.linkedList.LinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="new-data-sturcture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataStructures.linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DataStructures.linkedList" />
+      <option name="MAIN_CLASS_NAME" value="DataStructures.linkedList.LinkedListTest" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.testIncludes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="new-data-sturcture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataStructures.linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DataStructures.linkedList" />
+      <option name="MAIN_CLASS_NAME" value="DataStructures.linkedList.LinkedListTest" />
+      <option name="METHOD_NAME" value="testIncludes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.testZipTwoArrays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="new-data-sturcture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataStructures.linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DataStructures.linkedList" />
+      <option name="MAIN_CLASS_NAME" value="DataStructures.linkedList.LinkedListTest" />
+      <option name="METHOD_NAME" value="testZipTwoArrays" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LinkedList (1)" />
-        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="JUnit.LinkedListTest" />
         <item itemvalue="Application.LinkedList" />
-        <item itemvalue="Application.ArrayShift" />
+        <item itemvalue="JUnit.LinkedListTest.testZipTwoArrays" />
+        <item itemvalue="JUnit.LinkedListTest.testIncludes" />
+        <item itemvalue="JUnit.LinkedListTest.main" />
       </list>
     </recent_temporary>
   </component>
@@ -115,6 +199,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/data_structures_and_algorithms$LinkedList.ic" NAME="LinkedList Coverage Results" MODIFIED="1617889451619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>linkedList.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$LinkedListTest_testZipTwoArrays.ic" NAME="LinkedListTest.testZipTwoArrays Coverage Results" MODIFIED="1618345036545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>DataStructures.linkedList.*</FILTER>
     </SUITE>
   </component>
 </project>

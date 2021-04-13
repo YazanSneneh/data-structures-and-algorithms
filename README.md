@@ -7,6 +7,7 @@
 | Linked List| [code challenge](challenges/DataStructures/linkedList/LinkedList.java)|[No white board]()|
 | Linked List 2| [code challenge](challenges/DataStructures/linkedList/LinkedList.java)|[No white board]()|
 | Linked List 3| [code challenge](challenges/DataStructures/linkedList/LinkedList.java)|[No white board]()|
+| Zip Linked List| [code challenge](challenges/DataStructures/linkedList/LinkedList.java)|[Zip white board](assets/zip%20white%20board.jpg)|
 
 ## Compile my files:
  * code direclty inside the **challenge folder** can compile it like this from terminal :
@@ -99,3 +100,21 @@ No white board for this soultion
 ## Solution
 <!-- Embedded whiteboard image -->
 No white board for this soultion
+
+
+# zip(Linkedlist one, Linkedlist two)
+<!-- Short summary or background information -->
+zip two arrays to one array.
+
+## Challenge Description
+ * given two Linked Lists, zip them to 1 LinkedList.
+   * First import both one and two should be inserted.
+   * next rount the next to head item will be zipped and so on.
+   * if 1 is shorter than the other, it should stop appending from short and continue adding the second List.
+
+
+## Approach & Efficiency
+ Big O :
+  Time complexity ----> O(n)  since I am adding from both same current node.
+## Solution
+ ![zip White board](assets/zip%20white%20board.jpg)

@@ -10,31 +10,12 @@ public class LinkedList {
         System.out.println("Can properly insert one or multiple value into the linked list");
         list.insert(2);
         list.insert(8);
+
         list.insert(3);
         list.insert(7);
-        System.out.println(list);
+        list.insertAfter(3,10);
+        System.out.println(list.toString());
 
-
-        System.out.println( ".................................................................");
-        System.out.println( "...................linked list challenge 4 ......................");
-        System.out.println( ".................................................................");
-
-        LinkedList linkedListOne = new LinkedList();
-        linkedListOne.append(2);
-        linkedListOne.append(8);
-        linkedListOne.append(3);
-        linkedListOne.append(7);
-
-        LinkedList linkedListTwo = new LinkedList();
-        linkedListTwo.append(13);
-        linkedListTwo.append(17);
-        linkedListTwo.append(13);
-        linkedListTwo.append(17);
-        linkedListOne.append(20);
-        linkedListOne.append(21);
-        linkedListOne.append(22);
-
-        System.out.println("method :"+zipLists(linkedListOne, linkedListTwo));
 
     }
 
@@ -109,7 +90,6 @@ public static LinkedList zipLists(LinkedList one, LinkedList two){
            Node newNode = new Node();
            newNode.value = newVal;
            Node current = head;
-
         try{
               while(current !=null){
                     if(value == current.value){

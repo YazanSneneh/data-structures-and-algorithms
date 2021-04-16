@@ -2,31 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d6af411-4f8f-4538-b52f-3f8303dd7766" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/zip white board.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/DataStructures.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/linkedList.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/out/production/linkedList/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/out/production/linkedList/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/out/production/linkedList/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/out/production/linkedList/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/out/production/linkedList/linkedList.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/DataStructures/linkedList/LinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/class 6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/kthFromEnd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/queue.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/stack.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/stacksandqueues/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/challenges/DataStructures/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/DataStructures/linkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-data-sturcture.iml" beforeDir="false" afterPath="$PROJECT_DIR$/new-data-sturcture.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/new-data-sturcture/DataStructures/linkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-data-sturcture/DataStructures/linkedList/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/new-data-sturcture/DataStructures/linkedList/LinkedListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/new-data-sturcture/DataStructures/linkedList/LinkedListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/DataStructures/linkedList/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DataStructures/linkedList/LinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,8 +59,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\STUDENT\401\data-structures-and-algorithms\assets" />
       <recent name="C:\Users\STUDENT\401\data-structures-and-algorithms\challenges" />
+      <recent name="C:\Users\STUDENT\401\data-structures-and-algorithms\assets" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -112,7 +98,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.appendInsertBeforeAfterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="new-data-sturcture" />
       <extension name="coverage">
         <pattern>
@@ -122,13 +108,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="DataStructures.linkedList" />
       <option name="MAIN_CLASS_NAME" value="DataStructures.linkedList.LinkedListTest" />
-      <option name="METHOD_NAME" value="main" />
+      <option name="METHOD_NAME" value="appendInsertBeforeAfterTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.testIncludes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.kthFromEndTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="new-data-sturcture" />
       <extension name="coverage">
         <pattern>
@@ -138,7 +124,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="DataStructures.linkedList" />
       <option name="MAIN_CLASS_NAME" value="DataStructures.linkedList.LinkedListTest" />
-      <option name="METHOD_NAME" value="testIncludes" />
+      <option name="METHOD_NAME" value="kthFromEndTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,10 +149,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LinkedListTest" />
+        <item itemvalue="JUnit.LinkedListTest.appendInsertBeforeAfterTest" />
         <item itemvalue="Application.LinkedList" />
+        <item itemvalue="JUnit.LinkedListTest.kthFromEndTest" />
         <item itemvalue="JUnit.LinkedListTest.testZipTwoArrays" />
-        <item itemvalue="JUnit.LinkedListTest.testIncludes" />
-        <item itemvalue="JUnit.LinkedListTest.main" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +181,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.EmptyStackException" package="java.util" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/data_structures_and_algorithms$LinkedList.ic" NAME="LinkedList Coverage Results" MODIFIED="1617889451619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

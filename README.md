@@ -5,10 +5,11 @@
 | Reverse Shift| [code challenge](challenges/ArrayShift.java)|[White Board](assets/array-shift.png)|
 | Binary Search| [code challenge](challenges/BinarySearch.java)|[White Board](assets/array.png)|
 | Linked List| [code challenge](challenges/DataStructures/linkedList/LinkedList.java)|[No white board]()|
-| Linked List 2| [code challenge](challenges/DataStructures/linkedList/LinkedList.java)|[No white board]()|
-| Linked List 3| [code challenge](challenges/DataStructures/linkedList/LinkedList.java)|[No white board]()|
-| Zip Linked List| [code challenge](challenges/DataStructures/linkedList/LinkedList.java)|[Zip white board](assets/zip%20white%20board.jpg)|
-
+| 6 Linked List 2| [code challenge](challenges/DataStructures/linkedList/LinkedList.java)|[Append, insertBefore, InsertAfter](assets/class%206.jpg)|
+| Class 07 ll-kth-from-end| [code challenge](challenges/DataStructures/linkedList/LinkedList.java)|[kthFromEnd White board](assets/kthFromEnd.jpg)|
+| Class 08 Zip Linked List| [code challenge](challenges/DataStructures/linkedList/LinkedList.java)|[Zip white board](assets/zip%20white%20board.jpg)|
+| Stack | [code challenge](challenges/stacksandqueues/Stack.java)|[Stack white board](assets/stack.jpg)|
+| Queue | [code challenge](challenges/stacksandqueues/Queue.java)|[Queue white board](assets/queue.jpg)|
 ## Compile my files:
  * code direclty inside the **challenge folder** can compile it like this from terminal :
    1. `$ javac ReverseArray.java ` to compile file.
@@ -84,9 +85,9 @@ No white board for this code.
 No white board for this soultion
 
 
-# element index in linkedlist
+# Class 7 `kthFromEnd(k)`
 * Write a method for the Linked List class which takes a number, k, as a parameter.
-*  Return the node’s value that is k from the end of the linked list.
+* Return the node’s value that is k from the end of the linked list.
 
 
 ## Challenge Description
@@ -97,7 +98,7 @@ No white board for this soultion
  Big O :
   Time complexity ----> O(n+n)
 
-## Solution
+## Solution7
 <!-- Embedded whiteboard image -->
 No white board for this soultion
 
@@ -118,3 +119,35 @@ zip two arrays to one array.
   Time complexity ----> O(n)  since I am adding from both same current node.
 ## Solution
  ![zip White board](assets/zip%20white%20board.jpg)
+
+
+# Stacks and Queues
+
+## Challenge
+<!-- Description of the challenge -->
+* stack : I will perform push,pop,peek,isEmpty
+* queue: I will perform enqueue,dequeue,peek,isEmpty
+
+## Approach & Efficiency
+* Stack Time complexity Big O():
+    * `push()`   **Big O(1)**
+    * `pop()` **Big O(1)**
+    * `peek()` **Big O(1)**
+    * `isEmpty()` **Big O(1)**
+* Queue Time complexity Big O():
+    * `enqueue()` **Big O(1)**
+    * `dequeue()` **Big O(1)**
+    * `peek()` **Big O(1)**
+    * `isEmpty()` **Big O(1)**
+
+## API
+* `class Stack` :
+    * `push()`
+    * `pop()` 
+    * `peek()` 
+    * `isEmpty()` 
+* `Class Queue` :
+    * `enqueue()` 
+    * `dequeue()` 
+    * `peek()` 
+    * `isEmpty()`

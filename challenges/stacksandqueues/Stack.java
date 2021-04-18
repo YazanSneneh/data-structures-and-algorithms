@@ -8,10 +8,11 @@ class Stack {
        public Stack(){
 
        }
-    public void push(int value){
+    public int push(int value){
                Node newNode = new Node(value,null);// first i create a node
                newNode.next = top;  // make the node point to top that is pointing to.
                top = newNode; // top now is pointing to the last element added to stack
+        return top.value;
        }
 
     public int pop(){

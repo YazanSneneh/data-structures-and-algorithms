@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d6af411-4f8f-4538-b52f-3f8303dd7766" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/class 6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/kthFromEnd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/queue.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/stack.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/stacksandqueues/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/PseudoQueue.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/DataStructures/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/DataStructures/linkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/stacksandqueues/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/stacksandqueues/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/new-data-sturcture/DataStructures/linkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-data-sturcture/DataStructures/linkedList/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/new-data-sturcture/DataStructures/linkedList/LinkedListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/new-data-sturcture/DataStructures/linkedList/LinkedListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/DataStructures/linkedList/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DataStructures/linkedList/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/new-data-sturcture/stacksandqueues/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-data-sturcture/stacksandqueues/Stack.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +66,39 @@
       <recent name="DataStructures.linkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListTest">
+  <component name="RunManager" selected="Application.PseudoQueue">
     <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataStructures.linkedList.LinkedList" />
       <module name="new-data-sturcture" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="DataStructures.linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PseudoQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stacksandqueues.PseudoQueue" />
+      <module name="new-data-sturcture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stacksandqueues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stacksandqueues.Queue" />
+      <module name="new-data-sturcture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stacksandqueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,45 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.kthFromEndTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="new-data-sturcture" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DataStructures.linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DataStructures.linkedList" />
-      <option name="MAIN_CLASS_NAME" value="DataStructures.linkedList.LinkedListTest" />
-      <option name="METHOD_NAME" value="kthFromEndTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListTest.testZipTwoArrays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="new-data-sturcture" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DataStructures.linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DataStructures.linkedList" />
-      <option name="MAIN_CLASS_NAME" value="DataStructures.linkedList.LinkedListTest" />
-      <option name="METHOD_NAME" value="testZipTwoArrays" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PseudoQueue" />
+        <item itemvalue="Application.Queue" />
         <item itemvalue="JUnit.LinkedListTest" />
         <item itemvalue="JUnit.LinkedListTest.appendInsertBeforeAfterTest" />
         <item itemvalue="Application.LinkedList" />
-        <item itemvalue="JUnit.LinkedListTest.kthFromEndTest" />
-        <item itemvalue="JUnit.LinkedListTest.testZipTwoArrays" />
       </list>
     </recent_temporary>
   </component>

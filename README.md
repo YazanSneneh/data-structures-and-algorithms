@@ -10,6 +10,8 @@
 | Class 08 Zip Linked List| [code challenge](challenges/DataStructures/linkedList/LinkedList.java)|[Zip white board](assets/zip%20white%20board.jpg)|
 | Stack | [code challenge](challenges/stacksandqueues/Stack.java)|[Stack white board](assets/stack.jpg)|
 | Queue | [code challenge](challenges/stacksandqueues/Queue.java)|[Queue white board](assets/queue.jpg)|
+| PseudoQueue | [code challenge](challenges/stacksandqueues/PseudoQueue.java)|[PseudoQueue white board](assets/PseudoQueue.jpg)|
+
 ## Compile my files:
  * code direclty inside the **challenge folder** can compile it like this from terminal :
    1. `$ javac ReverseArray.java ` to compile file.
@@ -151,3 +153,41 @@ zip two arrays to one array.
     * `dequeue()` 
     * `peek()` 
     * `isEmpty()`
+
+## Code Challenge: Class 11 PseudoQueue
+Given queue and two stack objects.
+implement enqueue to add new element to the front of queue using stack methods.
+implement dequeue to remove element from the last of the queue
+
+## Challenge Description
+#### Algorithm enqueue
+
+Create enqueue method take val
+check if queue is empty and add to it.
+if not empty:
+loop over queue and add items to stack.
+add value to queue.
+add items on another stack.
+put in in queue back.
+
+#### Algorithm enqueue
+
+Create dequeue method.
+check if queue is empty throw exception.
+if not empty:
+ make a temporary node.
+assign node that front pointing to.
+then front point to front.next.
+temp point to nothing.
+return value of tem.
+
+## Approach & Efficiency
+* `PseudoQueue {}` class contain 4 methods:
+  * `enqueue()` **Big O(2n)**
+  * `dequeue()` **Big O(1)**
+  * `isEmpty()` **Big O(1)**
+  * `toString()` **Big O(n)**
+
+
+## Solution
+![PseudoQueue white board](assets/PseudoQueue.jpg)

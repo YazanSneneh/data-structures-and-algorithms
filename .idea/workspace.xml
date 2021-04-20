@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d6af411-4f8f-4538-b52f-3f8303dd7766" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/animalShilter.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/utilities/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/utilities/AnimalShelter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/utilities/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/utilities/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/utilities/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/utilities/AnimalShelterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="3d6af411-4f8f-4538-b52f-3f8303dd7766" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

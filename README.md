@@ -11,6 +11,7 @@
 | Stack | [code challenge](challenges/stacksandqueues/Stack.java)|[Stack white board](assets/stack.jpg)|
 | Queue | [code challenge](challenges/stacksandqueues/Queue.java)|[Queue white board](assets/queue.jpg)|
 | PseudoQueue | [code challenge](challenges/stacksandqueues/PseudoQueue.java)|[PseudoQueue white board](assets/PseudoQueue.jpg)|
+| animal shilter :important(scroll down for explination on challenge) | [code challenge](challenges/utilities/AnimalShelter.java)|[White board Animal Shilter](assets/animalShilter.jpg)|
 
 ## Compile my files:
  * code direclty inside the **challenge folder** can compile it like this from terminal :
@@ -191,3 +192,30 @@ return value of tem.
 
 ## Solution
 ![PseudoQueue white board](assets/PseudoQueue.jpg)
+
+
+## Animal shilter Summary challenge 12
+1. Create a class called AnimalShelter which holds only dogs and cats.
+    The shelter operates using a first-in, first-out approach.
+1. **enqueue(animal)**:
+ adds animal to the shelter. animal should be either a dog or a cat object.
+
+2. **dequeue(pref)**: returns either a dog or a cat. 
+If pref is not "dog" or "cat" then return null.
+## Challenge Description
+* I am using polymorphisim in this challenge:
+    1. (challenges/utilities) a folder contain following classes:
+       1. `Animal{}`
+          constructor for `name` attribute.
+       2. `Cat{}` constructor inherit constructor from animal class
+       3. `Dog{}`c onstructor inherit constructor from animal class
+       4. `Node{}`  contain animal object.
+       5. `AnimalShilter{}` queue contain front, rear dog instance as well as cat instance
+
+#### testing : 
+  [testing this challenge](test/utilities/AnimalShelterTest.java)
+## Approach & Efficiency
+* **enqueue Big O(1)**: because i am adding to the end always.
+* **enqueue Big O(1)** : because i am removing from front always.
+## Solution
+![White board ANimal Shilter](assets/animalShilter.jpg)

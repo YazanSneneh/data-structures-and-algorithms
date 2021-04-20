@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d6af411-4f8f-4538-b52f-3f8303dd7766" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/PseudoQueue.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/animalShilter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/utilities/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/utilities/AnimalShelter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/utilities/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/utilities/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/utilities/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/utilities/AnimalShelterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/out/production/challenges/DataStructures/linkedList/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/stacksandqueues/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/stacksandqueues/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/new-data-sturcture/DataStructures/linkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-data-sturcture/DataStructures/linkedList/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/new-data-sturcture/stacksandqueues/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-data-sturcture/stacksandqueues/Stack.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -63,16 +64,17 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="utilities" />
       <recent name="DataStructures.linkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PseudoQueue">
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataStructures.linkedList.LinkedList" />
+  <component name="RunManager" selected="JUnit.AnimalShelterTest.enqueue">
+    <configuration name="AnimalShelter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utilities.AnimalShelter" />
       <module name="new-data-sturcture" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataStructures.linkedList.*" />
+          <option name="PATTERN" value="utilities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,45 +95,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stacksandqueues.Queue" />
+    <configuration name="AnimalShelterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="new-data-sturcture" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stacksandqueues.*" />
+          <option name="PATTERN" value="utilities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="new-data-sturcture" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DataStructures.linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DataStructures.linkedList" />
-      <option name="MAIN_CLASS_NAME" value="DataStructures.linkedList.LinkedListTest" />
+      <option name="PACKAGE_NAME" value="utilities" />
+      <option name="MAIN_CLASS_NAME" value="utilities.AnimalShelterTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.appendInsertBeforeAfterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnimalShelterTest.dequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="new-data-sturcture" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataStructures.linkedList.*" />
+          <option name="PATTERN" value="utilities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DataStructures.linkedList" />
-      <option name="MAIN_CLASS_NAME" value="DataStructures.linkedList.LinkedListTest" />
-      <option name="METHOD_NAME" value="appendInsertBeforeAfterTest" />
+      <option name="PACKAGE_NAME" value="utilities" />
+      <option name="MAIN_CLASS_NAME" value="utilities.AnimalShelterTest" />
+      <option name="METHOD_NAME" value="dequeue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimalShelterTest.enqueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="new-data-sturcture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="utilities" />
+      <option name="MAIN_CLASS_NAME" value="utilities.AnimalShelterTest" />
+      <option name="METHOD_NAME" value="enqueue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AnimalShelterTest.enqueue" />
+        <item itemvalue="Application.AnimalShelter" />
+        <item itemvalue="JUnit.AnimalShelterTest.dequeue" />
+        <item itemvalue="JUnit.AnimalShelterTest" />
         <item itemvalue="Application.PseudoQueue" />
-        <item itemvalue="Application.Queue" />
-        <item itemvalue="JUnit.LinkedListTest" />
-        <item itemvalue="JUnit.LinkedListTest.appendInsertBeforeAfterTest" />
-        <item itemvalue="Application.LinkedList" />
       </list>
     </recent_temporary>
   </component>

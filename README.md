@@ -1,4 +1,5 @@
 # Table of Contents
+**From Now on, I will be adding the class test location in each new challenge paragraph**
 |Code Challenge| Code Challenge|White Board|
 |--------------|-----------|-----------|
 | Reverse Array| [code challenge](challenges/ArrayReverse.java)|[White Board](assets/array-reverse.jpeg)|
@@ -12,6 +13,7 @@
 | Queue | [code challenge](challenges/stacksandqueues/Queue.java)|[Queue white board](assets/queue.jpg)|
 | PseudoQueue | [code challenge](challenges/stacksandqueues/PseudoQueue.java)|[PseudoQueue white board](assets/PseudoQueue.jpg)|
 | animal shilter :important(scroll down for explination on challenge) | [code challenge](challenges/utilities/AnimalShelter.java)|[White board Animal Shilter](assets/animalShilter.jpg)|
+| multiBracketValidation | [code challenge](challenges/utilities/MultiBracketValidation.java)|[White board multi Bracket Validation](assets/multiBracketValidation.jpg)|
 
 ## Compile my files:
  * code direclty inside the **challenge folder** can compile it like this from terminal :
@@ -219,3 +221,25 @@ If pref is not "dog" or "cat" then return null.
 * **enqueue Big O(1)** : because i am removing from front always.
 ## Solution
 ![White board ANimal Shilter](assets/animalShilter.jpg)
+
+
+
+
+# multiBracketValidation code challenge 13
+Your function should take a string as its only argument, and should return a boolean representing whether or not the brackets in the string are balanced. There are 3 types of brackets:
+
+* Round Brackets : ()
+* Square Brackets : []
+* Curly Brackets : {}
+
+## Challenge Description
+* Method : `multiBracketValidation(String value)`
+* test class : `multiBracketValidationTest()`  [test class code](test/utilities/MultiBracketValidationTest.java)
+ write a solution that return true when brackets openning and closing are equal otherwise false.
+method edge case is the string is empty
+
+## Approach & Efficiency
+Big O(n) 
+time complexity : Big O(n) because I will loop over characters to check each one if it's openning or closing bracket.
+## Solution
+![white borad for multiBracketValidation](assets/multiBracketValidation.jpg)

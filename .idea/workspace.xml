@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d6af411-4f8f-4538-b52f-3f8303dd7766" name="Default Changelist" comment="" />
+    <list default="true" id="3d6af411-4f8f-4538-b52f-3f8303dd7766" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/multiBracketValidation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/utilities/MultiBracketValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/utilities/MultiBracketValidationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +63,7 @@
       <recent name="DataStructures.linkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AnimalShelterTest.enqueue">
+  <component name="RunManager" selected="JUnit.AnimalShelterTest">
     <configuration name="AnimalShelter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="utilities.AnimalShelter" />
       <module name="new-data-sturcture" />
@@ -72,15 +77,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PseudoQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stacksandqueues.PseudoQueue" />
+    <configuration name="MultiBracketValidation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiBracketValidation" />
       <module name="new-data-sturcture" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stacksandqueues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,22 +95,6 @@
       <option name="PACKAGE_NAME" value="utilities" />
       <option name="MAIN_CLASS_NAME" value="utilities.AnimalShelterTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnimalShelterTest.dequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="new-data-sturcture" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="utilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="utilities" />
-      <option name="MAIN_CLASS_NAME" value="utilities.AnimalShelterTest" />
-      <option name="METHOD_NAME" value="dequeue" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -132,13 +115,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MultiBracketValidationTest.multiBracketValidationEmptyStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="new-data-sturcture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="utilities" />
+      <option name="MAIN_CLASS_NAME" value="utilities.MultiBracketValidationTest" />
+      <option name="METHOD_NAME" value="multiBracketValidationEmptyStringTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AnimalShelterTest.enqueue" />
-        <item itemvalue="Application.AnimalShelter" />
-        <item itemvalue="JUnit.AnimalShelterTest.dequeue" />
         <item itemvalue="JUnit.AnimalShelterTest" />
-        <item itemvalue="Application.PseudoQueue" />
+        <item itemvalue="JUnit.AnimalShelterTest.enqueue" />
+        <item itemvalue="JUnit.MultiBracketValidationTest.multiBracketValidationEmptyStringTest" />
+        <item itemvalue="Application.MultiBracketValidation" />
+        <item itemvalue="Application.AnimalShelter" />
       </list>
     </recent_temporary>
   </component>

@@ -56,7 +56,7 @@ public class AnimalShelter {
     public static void main(String[] args){
         AnimalShelter queue = new AnimalShelter();
 
-        Animal randomAnimal = new Animal("Bear");
+        Animal randomAnimal = new Cat("Bear");
 
 
         System.out.println(queue.enqueue(randomAnimal));

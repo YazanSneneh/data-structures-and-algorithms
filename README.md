@@ -14,7 +14,7 @@
 | PseudoQueue | [code challenge](challenges/stacksandqueues/PseudoQueue.java)|[PseudoQueue white board](assets/PseudoQueue.jpg)|
 | animal shilter :important(scroll down for explination on challenge) | [code challenge](challenges/utilities/AnimalShelter.java)|[White board Animal Shilter](assets/animalShilter.jpg)|
 | multiBracketValidation | [code challenge](challenges/utilities/MultiBracketValidation.java)|[White board multi Bracket Validation](assets/multiBracketValidation.jpg)|
-
+| class15 Tree |1. [tree code ](challenges/tree/Tree.java) 2.[binary tree](challenges/tree/BinaryTree.java) 3. [binary search tree](challenges/tree/BinarySearchTree.java)|1. [binary tree whiteboard](assets/InkedBinary%20Tree_LI.jpg) 2. [binary search tree whiteboard](assets//BinarySearchTree.jpg)|
 ## Compile my files:
  * code direclty inside the **challenge folder** can compile it like this from terminal :
    1. `$ javac ReverseArray.java ` to compile file.
@@ -224,7 +224,6 @@ If pref is not "dog" or "cat" then return null.
 
 
 
-
 # multiBracketValidation code challenge 13
 Your function should take a string as its only argument, and should return a boolean representing whether or not the brackets in the string are balanced. There are 3 types of brackets:
 
@@ -243,3 +242,55 @@ Big O(n)
 time complexity : Big O(n) because I will loop over characters to check each one if it's openning or closing bracket.
 ## Solution
 ![white borad for multiBracketValidation](assets/multiBracketValidation.jpg)
+
+
+# Trees
+
+##### Binary Tree
+
+* Define a method for each of the depth first traversals called `preOrder()`, `inOrder()`, and `postOrder()` which returns an array of the values, ordered appropriately.
+
+##### Binary Search Tree
+* Define a method named `add()` that accepts a value, and adds a new node with that value in the correct location in the binary search tree.
+* Define a method named `contains()` that accepts a value, and returns a boolean indicating whether or not the value is in the tree at least once.
+## Challenge
+ * `public Node{}`
+   * Node contain `Integer value, Node left, Node right`.
+ * `BinaryTree{}`
+   * constructor `BinaryTree(){}`
+   * constructor `BinaryTree(value){}`
+   * contain 3 methods: 
+     * `preOrder()`
+     * `inOrder()`
+     * `postOrder()`
+   * `BinarySearchTree{}`
+     * `root node`.
+     * constructor `BinarySearchTree(){}`
+     * constructor `BinarySearchTree(value){}`
+     * add
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+* `preOrder()` : time complexity Big O(n) : because I visited every node in order to print each value
+* `inOrder()`  : time complexity Big O(n) : because I visited every node in order to print each value
+* `postOrder()`: time complexity Big O(n) : because I visited every node in order to print each value
+
+ * `add()` : time complexity Big O(h) : because I am adding node either to left or right of the root node.
+ * `contain()` : time complexity Big O(h) : because I am searching for a specific node in tree.
+## API
+<!-- Description of each method publicly available in each of your trees -->
+ 1. to create a tree use:
+    `Tree ()` constructor.
+    `Tree (val)` constructor.
+
+2. to preform `add() and contain`
+     * init a a **binary search object** from `BinarySearchTree()` constructor.
+       * `obj.add(val,tree.root)`: to add new node to my tree.
+       * `obj.contain(val,tree.root)` to check if a value exist in tree or not.
+
+3. Print in preOrder, inOrder, post Order.
+   * init an object from BinarySearch class.
+     * `obj.preOrder();`
+     * `obj.inOrder();`
+     * `obj.postOrder();`
+   * then call List node : `obj.node`;
+   * loop over values and print them or perform any action you like.

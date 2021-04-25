@@ -6,6 +6,7 @@ import java.util.List;
 public class BinaryTree {
 
     List<Integer> nodes = new ArrayList<>();
+
     public List preOrder(Node root){
 
         if(root.value == null || root == null)return  null;
@@ -41,5 +42,26 @@ public class BinaryTree {
         return  this.nodes;
     }
 
+
+   public Integer findMaximumValue(Node root){
+
+        try {
+            if(root !=null && root.value !=null){
+                Node max= root;
+                List<Integer> values = this.preOrder(root);
+                int total = this.preOrder(root).size();
+
+                for( int i=0; i<total;i++){
+                    if( values.get(i) > max.value){
+                        max.value = values.get(i);
+                    }
+                }
+                return max.value;
+            }
+            return null;
+        }catch (NullPointerException n){
+            return null;
+        }
+    }
 
 }

@@ -14,11 +14,13 @@
 | PseudoQueue | [code challenge](challenges/stacksandqueues/PseudoQueue.java)|[PseudoQueue white board](assets/PseudoQueue.jpg)|
 | animal shilter :important(scroll down for explination on challenge) | [code challenge](challenges/utilities/AnimalShelter.java)|[White board Animal Shilter](assets/animalShilter.jpg)|
 | multiBracketValidation | [code challenge](challenges/utilities/MultiBracketValidation.java)|[White board multi Bracket Validation](assets/multiBracketValidation.jpg)|
-| class15 Tree |1. [tree code ](challenges/tree/Tree.java) 2.[binary tree](challenges/tree/BinaryTree.java) 3. [binary search tree](challenges/tree/BinarySearchTree.java)|1. [binary tree whiteboard](assets/InkedBinary%20Tree_LI.jpg) 2. [binary search tree whiteboard](assets//BinarySearchTree.jpg)|
+| class 15 Tree |1. [tree code ](challenges/tree/Tree.java) 2.[binary tree](challenges/tree/BinaryTree.java) 3. [binary search tree](challenges/tree/BinarySearchTree.java)|1. [binary tree whiteboard](assets/InkedBinary%20Tree_LI.jpg) 2. [binary search tree whiteboard](assets//BinarySearchTree.jpg)|
+| class 16 | [code challenge](challenges/tree/BinaryTree.java)|[Maximum value in binary tree white board](assets/maximumValue.jpg)|
 ## Compile my files:
  * code direclty inside the **challenge folder** can compile it like this from terminal :
-   1. `$ javac ReverseArray.java ` to compile file.
-   2. `$ java ReverseArray.java ` to run Class file.
+   1. `$ javac ReverseArray.java ` 
+   2. to compile file.
+   3. `$ java ReverseArray.java ` to run Class file.
 
 
  * Code live inside another directory will have to do following:
@@ -294,3 +296,23 @@ time complexity : Big O(n) because I will loop over characters to check each one
      * `obj.postOrder();`
    * then call List node : `obj.node`;
    * loop over values and print them or perform any action you like.
+
+
+# maximum value in tree
+GIven a binary tree,  create a method that find the maximum value in the tree.
+
+## Challenge Description
+I will create a max node and assume root node contain max value.
+try to search for bigger value in the tree.
+if i find it, i make it new max node.
+if there is no value higher than the root then it's root the highest value
+
+## Approach & Efficiency
+Big O
+
+time complexity : O(n)
+
+because I am going to use pre order method which is a method that visit every single node in the tree.
+
+## Solution
+![White board](assets/maximumValue.jpg)

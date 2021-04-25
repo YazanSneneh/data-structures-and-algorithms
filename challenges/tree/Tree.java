@@ -38,7 +38,9 @@ public class Tree {
            values += bTree.nodes.get(i)+ " ";
         }
 
-        System.out.print(values);
+        System.out.println(bTree.findMaximumValue(tree.root));
+
+
     }
 
 }

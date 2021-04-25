@@ -93,4 +93,21 @@ public class TreeTest {
         assertFalse("Can successfully return false when value 50 not found ", bSTree.contains(50,tree.root));
 
     }
+
+    @Test
+    public void findMaximumValueTest(){
+          Tree treeTest = new Tree();
+         assertNotNull("edge cases ",treeTest);
+
+        bSTree.add( 5, tree.root);
+        bSTree.add( 25, tree.root);
+        bSTree.add( 4, tree.root);
+        bSTree.add( 15, tree.root);
+        bSTree.add( 20, tree.root);
+        bSTree.add( 30, tree.root);
+
+           int val = bTree.findMaximumValue(tree.root);
+        assertEquals("happy path, return the maximum number", 30,val);
+        assertEquals("failure expected, return number 30, if not then something is wrong", 30,val);
+    }
 }

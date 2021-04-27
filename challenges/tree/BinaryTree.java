@@ -1,12 +1,14 @@
 package tree;
 
+import stacksandqueues.PseudoQueue;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class BinaryTree {
 
     List<Integer> nodes = new ArrayList<>();
-
+    PseudoQueue breadth = new PseudoQueue();
     public List preOrder(Node root){
 
         if(root.value == null || root == null)return  null;
@@ -64,4 +66,26 @@ public class BinaryTree {
         }
     }
 
+    public List breadthFirstTraversal(Node root){
+        if (root == null)
+            return null;
+
+
+        breadth.enqueue(root.value);
+
+        while( !breadth.isEmpty()){
+            nodes.add(breadth.dequeue());
+
+            if(root.left !=null)
+            {
+                breadthFirstTraversal(root.left);
+            }
+
+            if(root.right !=null)
+            {
+                breadthFirstTraversal(root.right);
+            }
+        }
+        return this.nodes;
+    }
 }

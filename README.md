@@ -16,6 +16,7 @@
 | multiBracketValidation | [code challenge](challenges/utilities/MultiBracketValidation.java)|[White board multi Bracket Validation](assets/multiBracketValidation.jpg)|
 | class 15 Tree |1. [tree code ](challenges/tree/Tree.java) 2.[binary tree](challenges/tree/BinaryTree.java) 3. [binary search tree](challenges/tree/BinarySearchTree.java)|1. [binary tree whiteboard](assets/InkedBinary%20Tree_LI.jpg) 2. [binary search tree whiteboard](assets//BinarySearchTree.jpg)|
 | class 16 | [code challenge](challenges/tree/BinaryTree.java)|[Maximum value in binary tree white board](assets/maximumValue.jpg)|
+| class 18 | [code challenge](challenges/fizzbuzz/FizzBuzzTree.java)|[FizzBuzz tree white board](assets/Fizz%20Buzz%20Tree.jpg)|
 ## Compile my files:
  * code direclty inside the **challenge folder** can compile it like this from terminal :
    1. `$ javac ReverseArray.java ` 
@@ -316,3 +317,25 @@ because I am going to use pre order method which is a method that visit every si
 
 ## Solution
 ![White board](assets/maximumValue.jpg)
+
+
+# Challenge Summary
+write a method FizzBuzzTree which takes a k-ary tree as an argument.
+determine whether or not the value of each node is divisible by 3, 5 or both.
+Create a new tree with the same structure as the original.
+
+## Challenge Description
+Input k-ary tree.
+
+output: modified tree contain following values :
+
+If the value is divisible by 3, replace the value with “Fizz”.
+If the value is divisible by 5, replace the value with “Buzz”
+If the value is divisible by 3 and 5, replace the value with “FizzBuzz”
+If the value is not divisible by 3 or 5, simply turn the number into a String.
+
+## Approach & Efficiency
+time complexity is O(n) because we are visiting all nodes in k-ary tree
+
+## Solution
+![solution](assets/Fizz%20Buzz%20Tree.jpg)

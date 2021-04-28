@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d6af411-4f8f-4538-b52f-3f8303dd7766" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/Fizz Buzz Tree.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/fizzbuzz/FizzBuzzTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/tree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/tree/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tree/TreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>

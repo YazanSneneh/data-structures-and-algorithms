@@ -7,8 +7,8 @@ public class SelectionSort {
         insertionSort(numbers);
     }
 
-    public static String insertionSort(Integer[] numbers){
-        String result ="";
+    public static Integer[] insertionSort(Integer[] numbers){
+
                  int length = numbers.length;
 
                  for(int i=0; i< length; i++){
@@ -23,9 +23,7 @@ public class SelectionSort {
                          numbers[i] = temp;
                      }
                  }
-                 for (int i = 0; i < numbers.length; i++) {
-                     result += numbers[i] + " ";
-                 }
-               return  result;
+
+               return  numbers;
     }
 }

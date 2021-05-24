@@ -16,6 +16,8 @@
 | multiBracketValidation | [code challenge](challenges/utilities/MultiBracketValidation.java)|[White board multi Bracket Validation](assets/multiBracketValidation.jpg)|
 | class 15 Tree |1. [tree code ](challenges/tree/Tree.java) 2.[binary tree](challenges/tree/BinaryTree.java) 3. [binary search tree](challenges/tree/BinarySearchTree.java)|1. [binary tree whiteboard](assets/InkedBinary%20Tree_LI.jpg) 2. [binary search tree whiteboard](assets//BinarySearchTree.jpg)|
 | class 16 | [code challenge](challenges/tree/BinaryTree.java)|[Maximum value in binary tree white board](assets/maximumValue.jpg)|
+| class 30 | [code challenge](/challenges/hashtable/Hashtable.java)|No White board for this challenge|
+
 ## Compile my files:
  * code direclty inside the **challenge folder** can compile it like this from terminal :
    1. `$ javac ReverseArray.java ` 
@@ -316,3 +318,32 @@ because I am going to use pre order method which is a method that visit every si
 
 ## Solution
 ![White board](assets/maximumValue.jpg)
+
+
+
+# Hashtables
+  - hash table used to store items in array wof size n.
+  - the point is to use advantage of array indexing access time complexity which is O(1)
+  - data will be stored in key pair value.
+  - and then i will hash the key to generate integer value that will be index in the array.
+  - a great example of this is library.
+ 
+ ## Challenge
+- create following methods:
+  - add: takes in both the key and value. This method should hash the key, and add the key and value pair to the table, handling collisions as needed.
+  - get: takes in the key and returns the value from the table.
+  - contains: takes in the key and returns a boolean, indicating if the key exists in the table already.
+  - hash: takes in an arbitrary key and returns an index in the collection.
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+ - hash table is always O(1)
+ - add(key,value) : O(1) because i add to head always.
+ - get(key): is O(n) because i will search for value in linked list and it might be the last item.
+ - contains(key): is O(n) because i will check for value in linked list and it might be the last item.
+
+## API
+<!-- Description of each method publicly available in each of your hashtable -->
+ - add(key,value) 
+ - get(key)
+ - contains(key)

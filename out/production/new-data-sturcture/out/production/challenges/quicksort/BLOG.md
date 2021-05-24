@@ -11,7 +11,7 @@
 ![quick sort](quck-sort.jpeg)
 
 ### Tests
-![quick sort](quciksortcases.png)
+![quick sort](quicksort.png)
 
 ALgo Analysis
 - Time complexity Big O(n log n)

@@ -17,6 +17,7 @@
 | class 15 Tree |1. [tree code ](challenges/tree/Tree.java) 2.[binary tree](challenges/tree/BinaryTree.java) 3. [binary search tree](challenges/tree/BinarySearchTree.java)|1. [binary tree whiteboard](assets/InkedBinary%20Tree_LI.jpg) 2. [binary search tree whiteboard](assets//BinarySearchTree.jpg)|
 | class 16 | [code challenge](challenges/tree/BinaryTree.java)|[Maximum value in binary tree white board](assets/maximumValue.jpg)|
 | class 30 | [code challenge](/challenges/hashtable/Hashtable.java)|No White board for this challenge|
+| class 32 | [code challenge](/challenges/tree/TreeInterSection.java)|No White board for this challenge [Tests](/challenges/tree/TreeInterSectionTest.java)|
 
 ## Compile my files:
  * code direclty inside the **challenge folder** can compile it like this from terminal :
@@ -347,3 +348,20 @@ because I am going to use pre order method which is a method that visit every si
  - add(key,value) 
  - get(key)
  - contains(key)
+
+
+# Challenge Summary
+ given two binary trees.
+ find common values in both trees
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+- time complexity : Big O(3n) because i added items of tree one in list one, tree two in list two and result to another list....
+- space complexity : Big O(3n) because i have three new lists.
+## Solution
+- first i take two trees as input.
+- traverse them accordingly.
+- add each value to arrayList.
+- and run check if value of list one exist in list two.
+- then add it to result list.
+- return list.

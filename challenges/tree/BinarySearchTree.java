@@ -3,6 +3,7 @@ package tree;
 public class BinarySearchTree {
 
     public Node add(Integer value, Node root){
+
         Node newNode = new Node(value);
         if(root == null){
              root = newNode;
@@ -24,7 +25,7 @@ public class BinarySearchTree {
                 add(value, root.right);
             }
         }
-        if(root == null) return null;
+
         return newNode;
     }
 
@@ -42,14 +43,7 @@ public class BinarySearchTree {
         return false;
     }
 
-//public static void main(String[] args){
-//        BinarySearchTree tree = new BinarySearchTree();
-//          tree.setRoot(new Node(5));
-//          tree.add( 15, tree.root);
-//          tree.add( 25, tree.getRoot());
-//          tree.add( 4, tree.getRoot());
-//          tree.add( 2, tree.getRoot());
-//          tree.add( 3, tree.getRoot());
-//    System.out.println(tree.add( 3, tree.getRoot()));
-//}
+public static void main(String[] args){
+
+}
 }

@@ -9,7 +9,7 @@ public class BinaryTree {
 
     public List preOrder(Node root){
 
-        if(root.value == null || root == null)return  null;
+        if(root == null || root.value == null)return  null;
 
         this.nodes.add(root.value);
 

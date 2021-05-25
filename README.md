@@ -18,13 +18,13 @@
 | class 16 | [code challenge](challenges/tree/BinaryTree.java)|[Maximum value in binary tree white board](assets/maximumValue.jpg)|
 | class 30 | [code challenge](/challenges/hashtable/Hashtable.java)|No White board for this challenge|
 | class 32 | [code challenge](/challenges/tree/TreeInterSection.java)|No White board for this challenge [Tests](/challenges/tree/TreeInterSectionTest.java)|
+| class 31 | [Repeated word](/challenges/RepeatedWord/RepeatedWord.java)|[repeated words whiteboard](assets/repeated%20word.jpg)|
 
 ## Compile my files:
  * code direclty inside the **challenge folder** can compile it like this from terminal :
    1. `$ javac ReverseArray.java ` 
    2. to compile file.
    3. `$ java ReverseArray.java ` to run Class file.
-
 
  * Code live inside another directory will have to do following:
    1. `$ javac linkedList/LinkedList.java ` to compile file inside linkedList directory.
@@ -348,6 +348,22 @@ because I am going to use pre order method which is a method that visit every si
  - add(key,value) 
  - get(key)
  - contains(key)
+
+# Repeated words in string
+<!-- Description of the challenge -->
+given a string, give the first repeated word in that string.
+
+## Whiteboard Process
+![repeated words](assets/repeated%20word.jpg)
+
+## Approach & Efficiency
+
+* **Big O**
+  - time complexity : O(n*m) because the word might that will be repeated might be in the last 2 indexes.
+  - space complexity: O(n): because i reserve array size for n words.
+## Solution
+   - `ClassName.findRepeated(String);`
+   - then print result back from method which is one word.
 
 
 # Challenge Summary

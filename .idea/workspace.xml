@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d6af411-4f8f-4538-b52f-3f8303dd7766" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/challenges/hashtable/Entry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/hashtable/HashTableImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/hashtable/Hashtable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/new-data-sturcture/challenges.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-data-sturcture/challenges.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/new-data-sturcture/out/production/challenges/challenges.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-data-sturcture/out/production/challenges/challenges.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/new-data-sturcture/stacksandqueues/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/new-data-sturcture/stacksandqueues/PseudoQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/new-data-sturcture/stacksandqueues/Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/new-data-sturcture/stacksandqueues/Stack.class" beforeDir="false" />
-    </list>
+    <list default="true" id="3d6af411-4f8f-4538-b52f-3f8303dd7766" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

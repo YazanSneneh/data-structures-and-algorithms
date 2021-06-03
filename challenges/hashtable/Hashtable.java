@@ -9,9 +9,9 @@ public class Hashtable<T> {
         hashTable = new Entry[this.size];
            for(int i=0; i<hashTable.length; i++)
              hashTable[i] = new Entry<T>();
-    }
+     }
 
-    // takes in an arbitrary key and returns an index in the collection
+    // takes in an key and returns an index in the collection
     int hash(int key){
         return key%size;
     }
@@ -24,7 +24,6 @@ public class Hashtable<T> {
     */
     public void add(Integer key, T value){
         int index = hash(key);
-//        System.out.println("add: " + index);
         Entry arrayEntry = hashTable[index];
 
          if( arrayEntry == null){

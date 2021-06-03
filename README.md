@@ -19,7 +19,11 @@
 | class 30 | [code challenge](/challenges/hashtable/Hashtable.java)|No White board for this challenge|
 | class 32 | [code challenge](/challenges/tree/TreeInterSection.java)|No White board for this challenge [Tests](/challenges/tree/TreeInterSectionTest.java)|
 | class 31 | [Repeated word](/challenges/RepeatedWord/RepeatedWord.java)|[repeated words whiteboard](assets/repeated%20word.jpg)|
+
 | class 33 | [Left Join](/challenges/LeftJoin/LeftJoin.java)|[left join white board](assets/repeated%20word.jpg)|
+
+| class 35 | [Graph Code](/challenges/graph/Graph.java)|Documentation at the end of this Readme|
+
 
 ## Compile my files:
  * code direclty inside the **challenge folder** can compile it like this from terminal :
@@ -383,6 +387,7 @@ given a string, give the first repeated word in that string.
 - return list.
 
 
+
 # Hashmap LEFT JOIN
 Implement a simplified LEFT JOIN for 2 Hashmaps
 
@@ -398,3 +403,42 @@ Big O:
 
 ## Solution
 ![left join](assets/left%20join.jpg)
+
+# Graphs
+<!-- Short summary or background information -->
+implement graphs using java language
+
+## Challenge
+<!-- Description of the challenge -->
+ add nodes to graph.
+ add edges between nodes.
+ add weight.
+ view all nodes.
+ view neighbors
+
+## Approach & Efficiency
+Big O for all methods:-
+   - AddNode : 
+     - time:   O(n) since i am adding to the end of the list.
+     - space:  O(1) because i needed extra space only for current edge node
+   - AddEdge : 
+     - time:   O(n) also because i am adding to the end of the list.
+     - space: O(1) because i needed extra space only for current edge node
+   - GetNodes : 
+     - time:   O(n) because i am visiting all nodes in the list.
+     - space:  O(n) because i return array of items.
+   - GetNeighbors : 
+     - time:   O(n) because checking all nodes if they are neighbors
+     - space:  O(n) because returning list.
+   - Size : 
+     - time: O(n) because i am visiting all nodes in the list to count.
+     - space: O(1) because only 1 integer value extra required.
+
+## API
+<!-- Description of each method publicly available in your Graph -->
+ 1. **AddNode()**  takes Integer value
+ 2. **AddEdge()**   take two values from graph.
+ 3. **GetNodes()**  method called on graph
+ 4. **GetNeighbors()**  called on endge from graph
+ 5. **Size()**  method invoked on graph.
+

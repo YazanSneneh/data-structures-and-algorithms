@@ -35,14 +35,13 @@ public class Hashtable<T> {
              newEntry.next = arrayEntry.next;
              arrayEntry.next = newEntry;
          }
-
     }
 
     // takes in the key.
     // returns the value from the table.
     public T get(Integer key){
         int index = hash(key);
-//        System.out.println("get: " + index);
+
         T value = null;
 
         Entry arrayItem = hashTable[index];

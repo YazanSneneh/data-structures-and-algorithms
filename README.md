@@ -19,6 +19,7 @@
 | class 30 | [code challenge](/challenges/hashtable/Hashtable.java)|No White board for this challenge|
 | class 32 | [code challenge](/challenges/tree/TreeInterSection.java)|No White board for this challenge [Tests](/challenges/tree/TreeInterSectionTest.java)|
 | class 31 | [Repeated word](/challenges/RepeatedWord/RepeatedWord.java)|[repeated words whiteboard](assets/repeated%20word.jpg)|
+| class 33 | [Left Join](/challenges/LeftJoin/LeftJoin.java)|[left join white board](assets/repeated%20word.jpg)|
 
 ## Compile my files:
  * code direclty inside the **challenge folder** can compile it like this from terminal :
@@ -365,7 +366,6 @@ given a string, give the first repeated word in that string.
    - `ClassName.findRepeated(String);`
    - then print result back from method which is one word.
 
-
 # Challenge Summary
  given two binary trees.
  find common values in both trees
@@ -381,3 +381,20 @@ given a string, give the first repeated word in that string.
 - and run check if value of list one exist in list two.
 - then add it to result list.
 - return list.
+
+
+# Hashmap LEFT JOIN
+Implement a simplified LEFT JOIN for 2 Hashmaps
+
+## Challenge
+a function accept two hash maps and join them to a single data structure.
+
+## Approach & Efficiency
+Big O:
+
+- time: O(n): because i only iterate over the left map and based on it i get the right map which is n.
+
+- space: O(n*3) because each time i reserve 3 index to join and 3 is fixed and n is total number of items in maps.
+
+## Solution
+![left join](assets/left%20join.jpg)

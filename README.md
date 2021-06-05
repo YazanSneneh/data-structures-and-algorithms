@@ -19,10 +19,11 @@
 | class 30 | [code challenge](/challenges/hashtable/Hashtable.java)|No White board for this challenge|
 | class 32 | [code challenge](/challenges/tree/TreeInterSection.java)|No White board for this challenge [Tests](/challenges/tree/TreeInterSectionTest.java)|
 | class 31 | [Repeated word](/challenges/RepeatedWord/RepeatedWord.java)|[repeated words whiteboard](assets/repeated%20word.jpg)|
-
 | class 33 | [Left Join](/challenges/LeftJoin/LeftJoin.java)|[left join white board](assets/repeated%20word.jpg)|
 
 | class 35 | [Graph Code](/challenges/graph/Graph.java)|Documentation at the end of this Readme|
+
+| class 36 | [breadth first search of graph](/challenges/BreadthFirst/BreadthFirstTest.java)|[ whiteboard](assets/Breadth-First%20Traversal%20of%20a%20Graph.jpg)|
 
 
 ## Compile my files:
@@ -442,3 +443,17 @@ Big O for all methods:-
  4. **GetNeighbors()**  called on endge from graph
  5. **Size()**  method invoked on graph.
 
+
+# Breadth-First Traversal of a Graph
+<!-- Description of the challenge -->
+traverse over graph using Breadth First Traversal of a Graph.
+
+## Whiteboard Process
+ ![White Board](assets/Breadth-First%20Traversal%20of%20a%20Graph.jpg)
+
+## Approach & Efficiency
+Big O:
+
+time: O(n) because i must visit all vertices in graph.
+
+space: O(n) - space required in returned list.

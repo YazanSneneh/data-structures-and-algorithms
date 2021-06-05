@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Graph {
-    ArrayList<Vertix> vertices = new ArrayList<>();
-    ArrayList<Edge> edges = new ArrayList<>();
+    public ArrayList<Vertix> vertices = new ArrayList<>();
+    public ArrayList<Edge> edges = new ArrayList<>();
 
     public Graph(){}
     public Graph(ArrayList<Vertix> vertices) {

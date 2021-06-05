@@ -5,6 +5,7 @@ public class SelectionSort {
                 Integer[] numbers = {8 ,4 ,15 ,16, 23, 42};
 //       String result  = insertionSort(numbers);
         insertionSort(numbers);
+        System.out.println("Hi ...");
     }
 
     public static Integer[] insertionSort(Integer[] numbers){

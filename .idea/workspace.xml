@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d6af411-4f8f-4538-b52f-3f8303dd7766" name="Default Changelist" comment="" />
+    <list default="true" id="3d6af411-4f8f-4538-b52f-3f8303dd7766" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/leftJoin/LeftJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/leftJoin/LeftJoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/out/production/challenges/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/out/production/challenges/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/out/production/challenges/hashtable/Hashtable.class" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/out/production/challenges/hashtable/Hashtable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/new-data-sturcture/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-data-sturcture/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/new-data-sturcture/out/production/challenges/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-data-sturcture/out/production/challenges/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/new-data-sturcture/out/production/challenges/quicksort/BLOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/new-data-sturcture/out/production/challenges/quicksort/BLOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/new-data-sturcture/tree/BinarySearchTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/new-data-sturcture/tree/BinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/new-data-sturcture/tree/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/new-data-sturcture/tree/Tree.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/challenges" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -59,7 +72,14 @@
       <recent name="DataStructures.linkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashTableImplementation">
+  <component name="RunManager" selected="Application.ArrayReverse">
+    <configuration name="ArrayReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayReverse" />
+      <module name="new-data-sturcture" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HashTableImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hashtable.HashTableImplementation" />
       <module name="new-data-sturcture" />
@@ -101,22 +121,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeTest.containsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="new-data-sturcture" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tree" />
-      <option name="MAIN_CLASS_NAME" value="tree.TreeTest" />
-      <option name="METHOD_NAME" value="containsTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TreeTest.findMaximumValueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="new-data-sturcture" />
       <extension name="coverage">
@@ -135,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayReverse" />
         <item itemvalue="Application.HashTableImplementation" />
         <item itemvalue="JUnit.TreeTest.findMaximumValueTest" />
         <item itemvalue="Application.Tree" />
         <item itemvalue="JUnit.TreeTest" />
-        <item itemvalue="JUnit.TreeTest.containsTest" />
       </list>
     </recent_temporary>
   </component>
